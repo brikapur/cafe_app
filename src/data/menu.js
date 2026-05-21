@@ -1,4 +1,3 @@
-import latte from '../assets/latte.jpg';
 import latte from '../assets/menu-latte.jpg';
 import iced from '../assets/menu-iced.jpg';
 import croissant from '../assets/menu-croissant.jpg';

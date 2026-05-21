@@ -4,10 +4,10 @@ import {MapPin, Phone, Mail, Clock} from 'lucide-react';
 
 function Contact(){
     const items=[
-        {icon: MapPin, Title:}
-        {icon: Phone, title:}
-        {icon: Mail, title:}
-        {icon: Clock, title: }
+        {Icon: MapPin, Title: "Visit us"},
+        {Icon: Phone, Title: "Call us"},
+        {Icon: Mail, Title: "Email us"},
+        {Icon: Clock, Title: "Hours"}
     ];
     return(
         <div className="page">
@@ -19,11 +19,11 @@ function Contact(){
             </div>
             <div className="contact-grid">
                 <div>
-                    {items.map(({Icon, title, text}) =>(
-                        <div key={title} className="info-card">
-                            <span className="hl-icon"><Icon sie={20} /> </span>
+                    {items.map(({Icon, Title, text}) =>(
+                        <div key={Title} className="info-card">
+                            <span className="hl-icon"><Icon size={20} /> </span>
                             <div>
-                                <h3>{title}</h3>
+                                <h3>{Title}</h3>
                                 <p>{text}</p> 
                                 </div>  
                                 </div>                      
@@ -40,3 +40,4 @@ function Contact(){
         </div>
     );
     }
+    export default Contact;

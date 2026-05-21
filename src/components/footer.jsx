@@ -43,8 +43,8 @@ function Footer() {
             <p>123 Coffee Street, <br /> Brew City </p>
           </div>
 
-          <p classname= "copyright" copy {new Date().getFullYear()} Bribuzz Cafe . All Rights Reserved . </p>
-
+          <p classname= "copyright">© {new Date().getFullYear()} Bribuzz Cafe . All Rights Reserved . </p>
+        </footer>
     );
 }
 export default footer;

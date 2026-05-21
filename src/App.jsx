@@ -4,6 +4,7 @@ import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App(){
   return(
